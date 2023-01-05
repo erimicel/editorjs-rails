@@ -1,17 +1,13 @@
 /.bundle/
-/.yardoc
-/_yardoc/
-/coverage/
 /doc/
+/log/*.log
 /pkg/
-/spec/reports/
 /tmp/
-Gemfile.lock
-*.gem
-.rbenv-version
-
-# rspec failure tracking
+/spec/reports/
 .rspec_status
+.byebug_history
+*.gem
+Gemfile.lock
 
 # os files
 .DS_Store

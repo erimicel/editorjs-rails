@@ -1,6 +1,4 @@
-# frozen_string_literal: true
-
-require_relative "lib/editorjs/rails/version"
+require_relative "lib/editorjs/version"
 
 Gem::Specification.new do |spec|
   spec.name = "editorjs-rails"
@@ -25,16 +23,7 @@ Gem::Specification.new do |spec|
       (f == __FILE__) || f.match(%r{\A(?:(?:bin|test|spec|features)/|\.(?:git|circleci)|appveyor)})
     end
   end
-  spec.bindir = "exe"
-  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  version_string = [">= 6.1"]
-
-  spec.add_runtime_dependency "actionpack",    version_string
-  spec.add_runtime_dependency "activesupport", version_string
-  spec.add_runtime_dependency "railties",      version_string
-
-  # For more information and examples about making a new gem, check out our
-  # guide at: https://bundler.io/guides/creating_gem.html
+  spec.add_dependency "railties", ">= 6.0.0"
 end

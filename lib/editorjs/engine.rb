@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
 module Editorjs
-  module Rails
-    class Engine < ::Rails::Engine
-      initializer "bootstrap.assets" do |app|
-        %w[stylesheets javascripts].each do |sub|
-          app.config.assets.paths << root.join("assets", sub).to_s
-        end
+  class Engine < ::Rails::Engine
+    initializer "editorjs.assets" do
+      if Rails.application.config.respond_to?(:assets)
+        Rails.application.config.assets.precompile += %w( editor.js )
       end
     end
   end
