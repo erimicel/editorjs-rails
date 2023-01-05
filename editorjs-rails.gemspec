@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/erimicel/editorjs-rails"
   spec.metadata["changelog_uri"] = "https://github.com/erimicel/editorjs-rails/Changelog.md"
 
-  spec.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
+  spec.files = Dir["{app,config,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "railties", ">= 6.0.0"
 end

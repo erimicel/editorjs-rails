@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+require "rails/engine"
 
 module Editorjs
   class Engine < ::Rails::Engine
