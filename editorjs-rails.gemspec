@@ -4,7 +4,7 @@ require_relative "lib/editorjs/rails/version"
 
 Gem::Specification.new do |spec|
   spec.name = "editorjs-rails"
-  spec.version = Editorjs::Rails::VERSION
+  spec.version = Editorjs::VERSION
   spec.authors = ["Erim Icel"]
   spec.email = ["erimicel@gmail.com"]
 
