@@ -1,4 +1,4 @@
-# Editorjs::Rails
+# Editorjs for Rails
 
 TODO: Delete this and the text below, and describe your gem
 
@@ -6,15 +6,11 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+### Installing with installer
 
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+1. Add the stimulus-rails gem to your Gemfile: `gem 'editorjs-rails'`
+2. Run `./bin/bundle install`.
+3. Run `./bin/rails editorjs:install`
 
 ## Usage
 
