@@ -31,9 +31,9 @@ Gem::Specification.new do |spec|
 
   version_string = [">= 6.1"]
 
-  s.add_runtime_dependency "actionpack",    version_string
-  s.add_runtime_dependency "activesupport", version_string
-  s.add_runtime_dependency "railties",      version_string
+  spec.add_runtime_dependency "actionpack",    version_string
+  spec.add_runtime_dependency "activesupport", version_string
+  spec.add_runtime_dependency "railties",      version_string
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
